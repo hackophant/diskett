@@ -14,8 +14,20 @@
             display: block;
         }
     </style>
+    <style>
+#fullpage-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10; /* above canvas */
+}
+    </style>
+    
 </head>
 <body>
+    <a id="fullpage-link" href="https://youtube.com/playlist?list=PLQOOXDUwgmoUXLfAPXYBctHU06AOPXX_m"></a>
     <canvas id="canvas"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
